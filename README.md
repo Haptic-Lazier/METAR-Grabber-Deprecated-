@@ -1,14 +1,12 @@
 # METAR-Grabber
-Grabs any METAR data from AWC. Read README.txt
+## Backround
+This project was used in Millard Airport and helped train new pilots to read METAR and TAF Weather Reports.
+This project has been updated to use the newly released AWC API JSON data and no longer uses webscrapping to gether results.
 
-Calling the function,
-1. Add def to file or into code itself.
-2. Call function, metar_get('Airport ICAO').
-2.5. If calling from another file 'from METAR import metar_get'.
-def returns string of metar in full form.
+## Usage
+This project is the bare minimum to gather METAR and TAF data from AWC, There are more functions and they would follow a similar approach to gathering the information. 
 
-Have fun and stay safe: 'Haptic'
+Please refer to [Link](https://aviationweather.gov/data/api/) for more information on the API
 
-
-Disclosure: DO NOT USE THIS FOR COMMERICAL OR AVIATION MEANS. I AM NOT RESPONSIBLE IF SOMEONE USES THIS DATA AS AVIATION FACT. THIS IS JUST TO GET A IDEA OF DATA TO STORE FOR 
-COMPARISON SAKE. 
+## Disclaimer
+Please do not use this code in any professional since, I am not responsible for anything that results in its missuse.
