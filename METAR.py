@@ -43,3 +43,4 @@ def taf_get(aic):
     return taf
 
 #print(metar_get("KOMA")) #Test function calling Omaha International Airport
+#print(taf_get("KOMA")) #Test function calling Omaha International Airport
